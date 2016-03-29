@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLL"
+
+    android:layout_column="4"
+    android:layout_row="7"
+
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="20dp">
+
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:textSize="24dp"
+            android:text="moves : "
+            android:textColor="#0000ff"
+            android:layout_weight="2"
+            android:gravity="right" />
+        <TextView
+            android:layout_height="50dp"
+            android:id="@+id/tv2"
+            android:textSize="24dp"
+            android:text=""
+            android:textColor="#0000ff"
+            android:layout_weight="2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="50dp"
+            android:id="@+id/tv3"
+            android:textSize="24dp"
+            android:text="color : "
+            android:textColor="#0000ff"
+            android:layout_weight="2"
+            android:gravity="right" />
+        <TextView
+            android:layout_height="50dp"
+            android:id="@+id/tv4"
+            android:textSize="24dp"
+            android:text=""
+            android:textColor="#0000ff"
+            android:layout_weight="2"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/b1"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b2"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b3"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b4"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/b5"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b6"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b7"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b8"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/b9"  android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b10" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b11" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b12" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/b13" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b14" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b15" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+        <Button
+            android:id="@+id/b16" android:layout_weight="1" android:layout_height="75dp" android:textSize="32dp"
+            android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:onClick="onClick"
+            android:layout_marginBottom="2dp" android:layout_marginLeft="2dp"/>
+    </TableRow>
+
+    <TableRow>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </TableRow>
+
+
+</TableLayout>

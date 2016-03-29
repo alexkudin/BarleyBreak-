@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Games</string>
+
+    <string name="action_back">Back</string>
+
+    <string name="action_barley">Barley</string>
+
+    <string name="action_startBarley">New Barley</string>
+    <string name="action_exitBarley">Exit from Barley</string>
+
+    <string name="action_select">Select</string>
+
+</resources>
